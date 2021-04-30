@@ -10,7 +10,9 @@ class _ContactMePageState extends State<ContactMePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        automaticallyImplyLeading: true,
+        automaticallyImplyLeading:
+            true, //This will automatically provide us a Navigator.pop(context) //method
+
         title: Text(
           "Contact Me",
           style: Theme.of(context).textTheme.headline1,
