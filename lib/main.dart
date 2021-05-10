@@ -32,6 +32,7 @@ class _MyHomePageState extends State<MyHomePage>
   //thi is used to control the animation of my play_pause icon
   AnimationController controller;
 
+//instance of yhe audio player
   AudioPlayer audioPlayer = AudioPlayer();
 
   int playStatus = 0;
